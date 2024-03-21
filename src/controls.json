@@ -1,32 +1,24 @@
 [
-    {
-        "name": "brightness",
-        "min": 30,
-        "max": 255
-    },
-    {
-        "name": "contrast",
-        "min": 0,
-        "max": 10
-    },
-    {
-        "name": "saturation",
-        "min": 0,
-        "max": 200
-    },
-    {
-        "name": "sharpness",
-        "min": 0,
-        "max": 50
-    },
-    {
-        "name": "exposure_absolute",
-        "min": 5,
-        "max": 20000
-    },
-    {
-        "name": "exposure_auto",
-        "min": 0,
-        "max": 3
-    }
+    {"name": "brightness", "id": "9963776", "type": "int", "min": 0, "max": 100, "step": 1, "default": 50, "value": 31, "flags": []},
+    {"name": "contrast", "id": "9963777", "type": "int", "min": 0, "max": 100, "step": 1, "default": 50, "value": 50, "flags": []},
+    {"name": "saturation", "id": "9963778", "type": "int", "min": 0, "max": 100, "step": 1, "default": 50, "value": 50, "flags": []},
+    {"name": "hue", "id": "9963779", "type": "int", "min": 0, "max": 100, "step": 1, "default": 50, "value": 50, "flags": []},
+    {"name": "white_balance_automatic", "id": "9963788", "type": "bool", "min": 0, "max": 1, "step": 1, "default": 1, "value": 1, "flags": []},
+    {"name": "red_balance", "id": "9963790", "type": "int", "min": 0, "max": 0, "step": 0, "default": 0, "value": 0, "flags": []},
+    {"name": "blue_balance", "id": "9963791", "type": "int", "min": 0, "max": 0, "step": 0, "default": 0, "value": 0, "flags": []},
+    {"name": "gain", "id": "9963795", "type": "int", "min": 1, "max": 48, "step": 1, "default": 1, "value": 13, "flags": []},
+    {"name": "power_line_frequency", "id": "9963800", "type": "menu", "min": 0, "max": 2, "step": 1, "default": 3, "value": 0, "flags": []},
+    {"name": "white_balance_temperature", "id": "9963802", "type": "int", "min": 2800, "max": 6500, "step": 100, "default": 5000, "value": 2800, "flags": []},
+    {"name": "sharpness", "id": "9963803", "type": "int", "min": 0, "max": 100, "step": 1, "default": 50, "value": 50, "flags": []},
+    {"name": "backlight_compensation", "id": "9963804", "type": "int", "min": 0, "max": 18, "step": 1, "default": 9, "value": 8, "flags": []},
+    {"name": "auto_exposure", "id": "10094849", "type": "menu", "min": 0, "max": 3, "step": 1, "default": 0, "value": 2, "flags": []},
+    {"name": "exposure_time_absolute", "id": "10094850", "type": "int", "min": 1, "max": 2500, "step": 1, "default": 330, "value": 125, "flags": []},
+    {"name": "pan_absolute", "id": "10094856", "type": "int", "min": -468000, "max": 468000, "step": 3600, "default": 0, "value": -113148, "flags": []},
+    {"name": "tilt_absolute", "id": "10094857", "type": "int", "min": -324000, "max": 324000, "step": 7200, "default": 0, "value": 41472, "flags": []},
+    {"name": "focus_absolute", "id": "10094858", "type": "int", "min": 0, "max": 100, "step": 1, "default": 0, "value": 0, "flags": []},
+    {"name": "focus_automatic_continuous", "id": "10094860", "type": "bool", "min": 0, "max": 1, "step": 1, "default": 1, "value": 1, "flags": []},
+    {"name": "zoom_absolute", "id": "10094861", "type": "int", "min": 0, "max": 100, "step": 1, "default": 0, "value": 0, "flags": []},
+    {"name": "zoom_continuous", "id": "10094863", "type": "int", "min": -100, "max": 100, "step": 1, "default": 100, "value": 240, "flags": []},
+    {"name": "pan_speed", "id": "10094880", "type": "int", "min": -100, "max": 160, "step": 1, "default": 20, "value": 0, "flags": []},
+    {"name": "tilt_speed", "id": "10094881", "type": "int", "min": -100, "max": 120, "step": 1, "default": 20, "value": 0, "flags": []}
 ]

@@ -9,6 +9,18 @@ const isByPath = config.by_path;
 function generateSettingRoute(name, min, max) {
     let router = express.Router();
 
+    router.get(`/:device/flyxy`, function(req, res) {
+        let device = req.params.device;
+        let panSpeed = parseInt(req.query.panSpeed);
+        let tiltSpeed = parseInt(req.query.tiltSpeed);
+        v4l2ctl.flyxy(device,-panSpeed,-tiltSpeed);
+
+        //console.log("request.params:",req.params);
+
+        res.json({ worked: true });
+    });
+    
+
     router.get(`/${name}/min_value`, function(req, res) {
         res.json({ min: min });
     });
